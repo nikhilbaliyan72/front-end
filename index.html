@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nikhil Fitness</title>
+</head>
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Balsamiq Sans;
+            color: black;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/for github.jpg');
+        }
+        
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 12px;
+            display: inline-block;
+            /*border: 2px solid red;*/
+        }
+        
+        .left img {
+            width: 50px;
+        }
+        
+        .left div {
+            text-align: center;
+        }
+        
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 12px auto;
+            /*  border: 2px solid green;*/
+        }
+        
+        .right {
+            position: absolute;
+            right: 24px;
+            top: 12px;
+            display: inline-block;
+            /* border: 2px solid yellow;*/
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            color: black;
+            display: inline-block
+        }
+        
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            padding: 22px 13px;
+        }
+        
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: grey;
+        }
+        /* if you give any a text active so it is work  
+     .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+        */
+        
+        .btn {
+            font-family: Balsamiq Sans;
+            /* it is helpfull for giben margin of the button and in middle of button*/
+            margin: 0px 5px;
+            /*it is use for change the background colour*/
+            background-color: skyblue;
+            /*it is helpfull for hiven the space in middle of the button the length and the width of the button*/
+            padding: 2px 10px;
+            /* it is helpfull for given the border*/
+            border: 2px solid skyblue;
+            /*it help to give the border radius means it give curve in the border of the button*/
+            border-radius: 10px;
+            /* it is helpfull for when your curser point the button so the button is pointeed*/
+            cursor: pointer;
+        }
+        /* hover is give for when the curser is move to the butti and the point of the button is on the button so the colour of the background of the button is change*/
+        
+        .btn:hover {
+            background-color: grey;
+        }
+        
+        .container {
+            border: 2px solid white;
+            margin: 102px 92px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        
+        .form-group input {
+            font-family: Balsamiq Sans;
+            text-align: center;
+            display: block;
+            width: 94%;
+            padding: 9px;
+            border: 2px solid black;
+            margin: 7px auto;
+            font-size: 15px;
+            border-radius: 8px;
+        }
+        
+        .container h2 {
+            text-align: center;
+        }
+        
+        .container button {
+            display: block;
+            width: 23%;
+            padding: 7px;
+            margin: 20px auto;
+        }
+    </style>
+
+    <body>
+        <header class="header">
+            <div class="left">
+                <img src="img/my pic 3.jpg" alt="">
+                <div>NIKHIL </div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness center</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call Us Now </button>
+                <button class="btn">Email Us</button>
+
+            </div>
+            <div class="container">
+                <h2>JOIN THE BEST GYMOF MEERUT NOW</h2>
+                <form action="noaction.php">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Name">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="" placeholder="Enter your Age">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Gender">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your locality">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="" placeholder="Enter your phone no">
+
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="" placeholder="Enter your E-mail ">
+
+                    </div>
+                    <button class="btn">submit</button>
+                </form>
+            </div>
+        </header>
+
+
+    </body>
+
+</html>
